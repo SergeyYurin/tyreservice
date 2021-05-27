@@ -7,7 +7,10 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+    <nav
+      className='navbar navbar-expand-lg navbar-light bg-light fixed-top'
+      style={{ background: '#e3f2fd' }}
+    >
       <div className='container'>
         <a className='navbar-brand' href='#'>
           <img className='logo' src={logo} alt='logo...' />

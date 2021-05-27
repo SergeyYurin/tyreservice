@@ -5,7 +5,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-orange: #FF871A;
   --primary-green: #4AB834;
-  --primary-dark: rgb(255, 255, 255, 0);
+  --primary-dark: rgba(29, 148, 252, 0.803);
   --primary-dark2: rgb(52, 58, 64);
   --primary-grey: rgb(44, 48, 52);
   --primary-black: rgb(6, 7, 7);
@@ -75,7 +75,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(background3.jpg) no-repeat;
+  background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
