@@ -11,27 +11,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Particles
-        className='particles-canvas'
-        params={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900,
-              },
-            },
-            shape: {
-              type: 'square',
-              stroke: {
-                width: 10,
-                color: '#4AB834',
-              },
-            },
-          },
-        }}
-      />
       <Navbar />
       <Header />
       <AboutMe />

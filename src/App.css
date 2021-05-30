@@ -29,6 +29,11 @@ nav {
   height: auto;
 }
 
+.logo2 {
+  width: 17rem;
+  height: auto;
+}
+
 /********LINKS**********/
 
 .nav a.nav-link {
@@ -44,7 +49,7 @@ nav ul li {
 .navbar-nav>li>a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-orange) !important;
+  color: var(--primary-red) !important;
   border-bottom: 0.1875rem solid var(--primary-dark);
 }
 
@@ -62,11 +67,11 @@ nav ul li {
 }
 
 .navbar-nav>li>a.active, .navbar-nav>li>a:focus {
-  border-bottom: 0.1875rem solid var(--primary-green);
+  border-bottom: 0.1875rem solid var(--primary-hover-red);
 }
 
 .navbar-nav>li>a:hover {
-  border-bottom: 0.1875rem solid var(--primary-green);
+  border-bottom: 0.1875rem solid var(--primary-red);
   transition: transform 250ms;
   transform: translateY(0.3rem);
 }
@@ -78,7 +83,7 @@ nav ul li {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
 }
 
 .main-info {

@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../logo.png';
+import logo2 from '../logo2.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
@@ -14,6 +16,9 @@ const Navbar = () => {
       <div className='container'>
         <a className='navbar-brand' href='#'>
           <img className='logo' src={logo} alt='logo...' />
+        </a>
+        <a className='navbar-brand' href='#'>
+          <img className='logo2' src={logo2} alt='logo2...' />
         </a>
         <button
           className='navbar-toggler'
