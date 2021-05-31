@@ -1,13 +1,16 @@
 import React from 'react';
-import Typed from 'react-typed';
+import { YMaps, Map } from 'react-yandex-maps';
 /* eslint-disable */
 
 function Header() {
   return (
     <div id='home' className='header-wraper'>
-      <div className='main-info'>
-        <h1>Шиномонтаж и прочий сервис</h1>
-      </div>
+      <YMaps>
+        <div>My awesome application with maps!</div>
+        <Map
+          defaultState={{ center: [56.12299, 93.323671], zoom: 9 }}
+        />
+      </YMaps>
     </div>
   );
 }

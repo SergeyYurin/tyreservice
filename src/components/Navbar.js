@@ -1,7 +1,5 @@
 import React from 'react';
 import logo from '../logo.png';
-import logo2 from '../logo2.png';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
@@ -17,9 +15,7 @@ const Navbar = () => {
         <a className='navbar-brand' href='#'>
           <img className='logo' src={logo} alt='logo...' />
         </a>
-        <a className='navbar-brand' href='#'>
-          <img className='logo2' src={logo2} alt='logo2...' />
-        </a>
+
         <button
           className='navbar-toggler'
           type='button'
@@ -31,7 +27,7 @@ const Navbar = () => {
         >
           <FontAwesomeIcon
             icon={faBars}
-            style={{ color: '#CD8B7C' }}
+            style={{ color: '#f04019' }}
           />
         </button>
 
@@ -48,7 +44,7 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                Home <span class='sr-only'></span>
+                главная <span class='sr-only'></span>
               </Link>
             </li>
             <li className='nav-item'>
@@ -59,7 +55,7 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                About me
+                о нас
               </Link>
             </li>
             <li className='nav-item'>
@@ -70,7 +66,7 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                Services
+                наш услуги
               </Link>
             </li>
             {/* <li className='nav-item'>
@@ -86,7 +82,7 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                Contacts
+                связаться с нами
               </Link>
             </li>
           </ul>

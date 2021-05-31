@@ -13,7 +13,7 @@ import {
 function Services() {
   return (
     <div id='services' className='services'>
-      <h1 className='py-5'>my services</h1>
+      <h1 className='py-5'>наши услуги</h1>
       <div className='container'>
         <div className='row'>
           <div className='col-md-3 col-sm-6'>
