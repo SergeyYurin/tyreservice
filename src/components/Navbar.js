@@ -39,12 +39,23 @@ const Navbar = () => {
             <li className='nav-item active'>
               <Link
                 smooth={true}
+                to='services'
+                offset={-70}
+                className='nav-link'
+                href='#'
+              >
+                наш услуги
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                smooth={true}
                 to='home'
                 offset={-70}
                 className='nav-link'
                 href='#'
               >
-                главная <span class='sr-only'></span>
+                местоположение <span class='sr-only'></span>
               </Link>
             </li>
             <li className='nav-item'>
@@ -58,17 +69,7 @@ const Navbar = () => {
                 о нас
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                smooth={true}
-                to='services'
-                offset={-70}
-                className='nav-link'
-                href='#'
-              >
-                наш услуги
-              </Link>
-            </li>
+
             {/* <li className='nav-item'>
               <Link className='nav-link' href='#'>
                 Portfolio

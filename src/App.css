@@ -13,6 +13,7 @@
   --primary-med-grey: rgb(107, 113, 120);
   --primary-red: #f04019;
   --primary-hover-red: #d5320e;
+  --primary-pink: #f47878;
 }
 
 body {
@@ -23,6 +24,9 @@ body {
 
 nav {
   z-index: 2;
+  border: 0.2px blur rgb(104, 103, 103);
+  border: 0.8px blur rgb(29, 29, 29);
+  box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.11);
 }
 
 .logo {
@@ -34,7 +38,7 @@ nav {
   width: 19rem;
   height: auto;
   transition: transform 250ms;
-  transform: translateY(2px);
+  transform: translateY(-2px);
 }
 
 /********LINKS**********/
@@ -54,9 +58,9 @@ nav ul li {
   margin-left: 0.75rem;
   padding: 0.5rem;
   border-radius: 20px;
-  color: var(--primary-white) !important;
-  border: 0.1875rem solid;
-  background: var(--primary-hover-red);
+  color: var(--primary-black) !important;
+  background: var(--primary-light-grey);
+  border: 0.1rem solid;
 }
 
 .navbar-brand {
@@ -73,15 +77,16 @@ nav ul li {
 }
 
 .navbar-nav>li>a.active, .navbar-nav>li>a:focus {
-  border: 0.1875rem solid;
-  background: var(--primary-red);
+  border: 0.1rem solid;
+  background: var(--primary-pink);
+  box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.20);
 }
 
 .navbar-nav>li>a:hover {
-  border: 0.1875rem solid;
+  border: 0.1rem solid;
   transition: transform 250ms;
-  transform: translateY(0.3rem);
-  background: var(--primary-red);
+  transform: translateY(-0.1rem);
+  box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.20);
 }
 
 /**********HEADER*******/
@@ -94,6 +99,8 @@ nav ul li {
 .main-info {
   display: flex;
   position: absolute;
+  width: 600px;
+  height: 400px;
   top: 0;
   left: 0;
   right: 0;
