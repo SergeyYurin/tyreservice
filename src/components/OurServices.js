@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faDesktop,
   faCompactDisc,
-  faDharmachakra,
+  faFutbol,
   faSnowflake,
   faBalanceScale,
 } from '@fortawesome/free-solid-svg-icons';
@@ -51,7 +51,7 @@ function OurServices() {
               <div className='circle'>
                 <FontAwesomeIcon
                   className='icon'
-                  icon={faDharmachakra}
+                  icon={faFutbol}
                   size='2x'
                 />
               </div>
