@@ -10,9 +10,10 @@
   --primary-dark2: rgb(52, 58, 64);
   --primary-grey: rgb(44, 48, 52);
   --primary-black: rgb(6, 7, 7);
-  --primary-med-grey: rgb(107, 113, 120);
+  --primary-med-grey: rgb(172, 176, 181);
   --primary-red: #f04019;
   --primary-hover-red: #d5320e;
+  --primary-pink: #f47878;
 }
 
 body {
@@ -23,6 +24,9 @@ body {
 
 nav {
   z-index: 2;
+  border: 0.2px blur rgb(104, 103, 103);
+  border: 0.8px blur rgb(29, 29, 29);
+  box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.11);
 }
 
 .logo {
@@ -34,7 +38,7 @@ nav {
   width: 19rem;
   height: auto;
   transition: transform 250ms;
-  transform: translateY(2px);
+  transform: translateY(-2px);
 }
 
 /********LINKS**********/
@@ -54,9 +58,9 @@ nav ul li {
   margin-left: 0.75rem;
   padding: 0.5rem;
   border-radius: 20px;
-  color: var(--primary-white) !important;
-  border: 0.1875rem solid;
-  background: var(--primary-hover-red);
+  color: var(--primary-black) !important;
+  background: var(--primary-light-grey);
+  border: 0.1rem solid;
 }
 
 .navbar-brand {
@@ -73,22 +77,23 @@ nav ul li {
 }
 
 .navbar-nav>li>a.active, .navbar-nav>li>a:focus {
-  border: 0.1875rem solid;
-  background: var(--primary-red);
+  border: 0.1rem solid;
+  background: var(--primary-pink);
+  box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.20);
 }
 
 .navbar-nav>li>a:hover {
-  border: 0.1875rem solid;
+  border: 0.1rem solid;
   transition: transform 250ms;
-  transform: translateY(0.3rem);
-  background: var(--primary-red);
+  transform: translateY(-0.1rem);
+  box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.20);
 }
 
 /**********HEADER*******/
 
 .header-wraper {
   position: relative;
-  height: 80vh;
+  height: 90vh;
 }
 
 .main-info {
@@ -103,13 +108,17 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Roboto Condesed" sans-serif;
+  color: var(--primary-hover-red);
+  text-transform: uppercase;
+  background: var(--primary-med-grey);
   z-index: 1;
 }
 
-.main-info h1 {
-  color: #64f547;
-  font-family: 'Share Tech Mono', monospace;
-  text-transform: uppercase;
+.map-window {
+  width: 80%;
+  height: 70%;
+  border: 0.15rem solid var(--primary-black);
+  background: var(--primary-light-grey);
 }
 
 /********HEADER MAIN OFFER BUTTON**********/
