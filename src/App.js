@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Maps from './components/Maps';
 import AboutMe from './components/AboutMe';
-import Services from './components/Services';
+import OurServices from './components/OurServices';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Services />
+      <OurServices />
       <Maps />
       <AboutMe />
       <Contacts />
