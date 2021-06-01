@@ -45,7 +45,7 @@ const Footer = () => {
                 <br />
                 <Link
                   smooth={true}
-                  to='services'
+                  to='ourservices'
                   offset={-70}
                   className='footer-nav'
                 >
