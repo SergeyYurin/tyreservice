@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Maps from './components/Maps';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
 import Contacts from './components/Contacts';
@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <Services />
-      <Header />
+      <Maps />
       <AboutMe />
       <Contacts />
       <Footer />

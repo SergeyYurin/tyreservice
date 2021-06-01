@@ -50,7 +50,7 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 smooth={true}
-                to='home'
+                to='maps'
                 offset={-70}
                 className='nav-link'
                 href='#'

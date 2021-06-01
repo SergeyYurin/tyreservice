@@ -27,11 +27,11 @@ const Footer = () => {
               <div className='col'>
                 <Link
                   smooth={true}
-                  to='home'
+                  to='maps'
                   offset={-70}
                   className='footer-nav'
                 >
-                  Home
+                  местоположение
                 </Link>
                 <br />
                 <Link
@@ -40,7 +40,7 @@ const Footer = () => {
                   offset={-70}
                   className='footer-nav'
                 >
-                  About me
+                  о нас
                 </Link>
                 <br />
                 <Link
@@ -49,7 +49,7 @@ const Footer = () => {
                   offset={-70}
                   className='footer-nav'
                 >
-                  Services
+                  наши услуги
                 </Link>
               </div>
             </div>
