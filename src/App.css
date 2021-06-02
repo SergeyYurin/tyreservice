@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Russo+One&display=swap');
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
@@ -17,7 +15,8 @@
 }
 
 body {
-  font-family: 'Comfortaa', monospace !important;
+  font-family: 'Russo One', monospace !important;
+  font-weight: 200 !important;
 }
 
 /**********NAVBAR*******/
@@ -57,7 +56,7 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   padding: 0.5rem;
-  border-radius: 20px;
+  border-radius: 10px;
   color: var(--primary-black) !important;
   background: var(--primary-light-grey);
   border: 0.1rem solid;
