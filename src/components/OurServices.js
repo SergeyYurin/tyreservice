@@ -1,11 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faCompactDisc,
-  faFutbol,
-  faSnowflake,
-  faBalanceScale,
-} from '@fortawesome/free-solid-svg-icons';
 import tyre from '../tyre.png';
 import rim from '../rim.png';
 import balance from '../balance.png';
