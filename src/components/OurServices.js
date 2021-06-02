@@ -1,12 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faDesktop,
   faCompactDisc,
   faFutbol,
   faSnowflake,
   faBalanceScale,
 } from '@fortawesome/free-solid-svg-icons';
+import tyre from '../tyre.png';
+import rim from '../rim.png';
+import balance from '../balance.png';
+import wintertyre from '../wintertyre.png';
+
 /* eslint-disable */
 
 function OurServices() {
@@ -18,10 +22,10 @@ function OurServices() {
           <div className='col-md-3 col-sm-6'>
             <div className='box'>
               <div className='circle'>
-                <FontAwesomeIcon
-                  className='icon'
-                  icon={faCompactDisc}
-                  size='2x'
+                <img
+                  className='service-logo'
+                  src={tyre}
+                  alt='tyre...'
                 />
               </div>
               <h3>Шиномонтаж</h3>
@@ -35,10 +39,10 @@ function OurServices() {
           <div className='col-md-3 col-sm-6'>
             <div className='box'>
               <div className='circle'>
-                <FontAwesomeIcon
-                  className='icon'
-                  icon={faBalanceScale}
-                  size='2x'
+                <img
+                  className='service-logo'
+                  src={balance}
+                  alt='balance...'
                 />
               </div>
               <h3>Балансировка</h3>
@@ -49,10 +53,10 @@ function OurServices() {
           <div className='col-md-3 col-sm-6'>
             <div className='box'>
               <div className='circle'>
-                <FontAwesomeIcon
-                  className='icon'
-                  icon={faFutbol}
-                  size='2x'
+                <img
+                  className='service-logo-rim'
+                  src={rim}
+                  alt='rim...'
                 />
               </div>
               <h3>Правка литых дисков</h3>
@@ -66,10 +70,10 @@ function OurServices() {
           <div className='col-md-3 col-sm-6'>
             <div className='box'>
               <div className='circle'>
-                <FontAwesomeIcon
-                  className='icon'
-                  icon={faSnowflake}
-                  size='2x'
+                <img
+                  className='service-logo'
+                  src={wintertyre}
+                  alt='wintertyre...'
                 />
               </div>
               <h3>Дошиповка</h3>
