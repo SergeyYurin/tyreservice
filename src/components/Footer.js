@@ -16,10 +16,12 @@ const Footer = () => {
         <div className='row'>
           <div className='col-lg-4 col-md-6 col-sm-6'>
             <div className='d-flex'>
-              <p>Chicago city, IL</p>
+              <p>
+                ул. Юности, 2г Сосновоборск, Красноярский край, 662500
+              </p>
             </div>
             <div className='d-flex'>
-              <a href='tel:630-994-0722'>+1(630)994-0722</a>
+              <a href='tel:+7923-319-21-29'>+7(923)319-21-29</a>
             </div>
           </div>
           <div className='col-lg-3 col-md-2 col-sm-6'>
@@ -82,8 +84,8 @@ const Footer = () => {
               </a>
             </div>
             <p className='py-3 text-center'>
-              {new Date().getFullYear()}&nbsp;Sergey Yurin | All
-              rights reserved
+              {new Date().getFullYear()}&nbsp;SIBerian Stop | Все
+              права защищены
             </p>
           </div>
         </div>
