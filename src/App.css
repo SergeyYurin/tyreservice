@@ -66,7 +66,6 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  /* padding-bottom: 0.2rem !important; */
   height: 4rem !important;
 }
 
@@ -121,27 +120,7 @@ nav ul li {
   background: var(--primary-light-grey);
 }
 
-/********HEADER MAIN OFFER BUTTON**********/
-
-.btn-main-offer {
-  border: 1px solid var(--primary-red);
-  text-transform: uppercase;
-  border-radius: 0.125rem;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  background-color: var(--primary-hover-red);
-  color: var(--primary-white);
-  text-decoration: none;
-  border-radius: 15px;
-  margin: 1rem;
-}
-
-.btn-main-offer:hover {
-  background-color: var(--primary-red);
-  color: var(--primary-white);
-  text-decoration: none;
-  border-radius: 15px;
-  margin: 1rem;
-}
+/************* ABOUT US*********/
 
 .photo-wrap {
   display: flex;
@@ -300,7 +279,7 @@ nav ul li {
   border: 0;
   border-bottom: 0.125rem solid var(--primary-med-grey);
   border-radius: 0;
-  color: var(--primary-med-grey);
+  color: var(--primary-black);
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
@@ -308,7 +287,8 @@ nav ul li {
 }
 
 .contacts .container {
-  padding: 4rem 0;
+  padding: 2rem 0;
+  padding-bottom: 1rem;
   max-width: 90%;
   border: 2px solid var(--primary-red);
   border-radius: 20px;
@@ -317,7 +297,8 @@ nav ul li {
 }
 
 .contacts .container:hover {
-  padding: 4rem 0;
+  padding: 2rem 0;
+  padding-bottom: 1rem;
   max-width: 90%;
   border: 2px solid var(--primary-red);
   border-radius: 20px;
@@ -371,11 +352,11 @@ textarea.form-control {
   border-radius: 15px;
   color: var(--primary-black);
   background: var(--primary-hover-red);
+  outline: 0 !important;
 }
 
 .contact-button:hover {
   margin: 0 0 0 0;
-  width: 45%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   position: absolute;
@@ -383,6 +364,27 @@ textarea.form-control {
   transition: 200ms ease-in-out;
   background: var(--primary-red);
   border-radius: 15px;
+  outline: 0 !important;
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0.125rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.btn-main-offer:hover {
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 1rem;
 }
 
 .error-message {
