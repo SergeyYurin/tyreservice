@@ -51,8 +51,8 @@ const Contacts = () => {
       <div className='text-center'>
         <h1>связаться с нами</h1>
         <p>
-          Пожалуйста заполните форму и опишите свою просьбу или
-          предложение, и мы свяжемся с вами максимально быстро.
+          Опишите свою просьбу или предложение о работе с нами, и мы
+          свяжемся с вами максимально быстро.
         </p>
         <span className='success-message'>{successMessage}</span>
       </div>
@@ -94,7 +94,7 @@ const Contacts = () => {
                       'Пожалуйста добавьте Ваш номер телефона',
                     pattern: {
                       value: /^[0-9]{3}[0-9]{3}[0-9]{4}/i,
-                      message: 'неверный формат номера телефона',
+                      message: 'Неверный формат номера телефона',
                     },
                   })}
                 />
@@ -167,7 +167,7 @@ const Contacts = () => {
                 {errors.description && errors.description.message}
               </span>
             </div>
-            <div className='text-center'>
+            <div>
               <button
                 className='btn-main-offer contact-btn'
                 type='submit'
