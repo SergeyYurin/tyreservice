@@ -9,7 +9,7 @@
   --primary-dark2: rgb(52, 58, 64);
   --primary-grey: rgb(44, 48, 52);
   --primary-black: rgb(6, 7, 7);
-  --primary-med-grey: rgb(172, 176, 181);
+  --primary-med-grey: rgb(157, 157, 157);
   --primary-red: #f04019;
   --primary-hover-red: #d5320e;
   --primary-pink: #f47878;
@@ -88,14 +88,14 @@ nav ul li {
   box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.20);
 }
 
-/**********HEADER*******/
+/**********MAPS*******/
 
 .header-wraper {
   position: relative;
   height: 90vh;
 }
 
-.main-info {
+.map-info {
   display: flex;
   position: absolute;
   top: 0;
@@ -109,8 +109,7 @@ nav ul li {
   font-family: "Roboto Condesed" sans-serif;
   color: var(--primary-hover-red);
   text-transform: uppercase;
-  background: var(--primary-med-grey);
-  z-index: 1;
+  background: var(--primary-light-grey2);
 }
 
 .map-window {
@@ -121,6 +120,16 @@ nav ul li {
 }
 
 /************* ABOUT US*********/
+
+.aboutUs {
+  position: relative;
+  margin-top: 5rem;
+  padding-top: 1rem;
+  height: 90vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 
 .photo-wrap {
   display: flex;
@@ -134,14 +143,14 @@ nav ul li {
 }
 
 .profile-img {
-  width: 25rem;
+  width: 40rem;
   border-radius: 20px;
   padding: .4rem;
   border: 2px solid var(--primary-red);
 }
 
 .about-heading {
-  margin-top: 1rem;
+  margin-top: 4rem;
   margin-bottom: 1rem;
   color: var(--primary-red);
   text-transform: uppercase;
@@ -277,7 +286,7 @@ nav ul li {
   background: none;
   resize: none;
   border: 0;
-  border-bottom: 0.125rem solid var(--primary-med-grey);
+  border-bottom: 0.125rem solid var(--primary-dark2);
   border-radius: 0;
   color: var(--primary-black);
   outline: 0 !important;
@@ -312,7 +321,7 @@ nav ul li {
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
   color: var(--primary-black);
-  border-bottom: 0.125rem solid var(--primary-med-grey);
+  border-bottom: 0.125rem solid var(--primary-dark2);
 }
 
 .contacts textarea {
@@ -338,7 +347,7 @@ input.form-control {
 }
 
 textarea.form-control {
-  margin: -0.3rem 0;
+  margin: -0.33rem 0;
 }
 
 .contact-button {
@@ -417,7 +426,7 @@ textarea.form-control {
 /**********Footer******/
 
 .footer {
-  background: var(--primary-light-grey2);
+  background: var(--primary-dark2);
   color: var(--primary-black);
   padding: 3rem;
   font-size: 1.25rem;

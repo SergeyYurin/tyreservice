@@ -10,7 +10,7 @@ function Maps() {
 
   return (
     <div id='maps' className='header-wraper'>
-      <div className='main-info' id='map'>
+      <div className='map-info' id='map'>
         <YMaps>
           <h1>Вы можете найти нас на Яндекс Картах</h1>
           <div className='map-window'>

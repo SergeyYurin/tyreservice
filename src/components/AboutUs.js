@@ -3,7 +3,7 @@ import outdoor from '../IMG2.jpg';
 
 function AboutUs() {
   return (
-    <div id='about' className='container py-5'>
+    <div id='about' className='container py-5 aboutUs'>
       <div className='row'>
         <div className='col-lg-6 col-xm-12'>
           <div className='photo-wrap mb-5'>

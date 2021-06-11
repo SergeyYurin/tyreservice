@@ -36,6 +36,17 @@ const Navbar = () => {
           id='navbarSupportedContent'
         >
           <ul className='navbar-nav ms-auto'>
+            <li className='nav-item'>
+              <Link
+                smooth={true}
+                to='about'
+                offset={-70}
+                className='nav-link'
+                href='#'
+              >
+                о нас
+              </Link>
+            </li>
             <li className='nav-item active'>
               <Link
                 smooth={true}
@@ -55,18 +66,7 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                местоположение <span class='sr-only'></span>
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                smooth={true}
-                to='about'
-                offset={-70}
-                className='nav-link'
-                href='#'
-              >
-                о нас
+                карта <span class='sr-only'></span>
               </Link>
             </li>
 
