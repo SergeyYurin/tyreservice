@@ -44,13 +44,13 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                о нас
+                о компании
               </Link>
             </li>
             <li className='nav-item active'>
               <Link
                 smooth={true}
-                to='ourservices'
+                to='services'
                 offset={-70}
                 className='nav-link'
                 href='#'
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 smooth={true}
-                to='contacts'
+                to='contactUs'
                 offset={-70}
                 className='nav-link'
                 href='#'
