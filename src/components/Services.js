@@ -3,12 +3,11 @@ import tyre from '../tyre.png';
 import rim from '../rim.png';
 import balance from '../balance.png';
 import wintertyre from '../wintertyre.png';
-
 /* eslint-disable */
 
-function OurServices() {
+function Services() {
   return (
-    <div id='ourServices' className='services'>
+    <div id='services' className='services'>
       <h1 className='py-5'>наши услуги</h1>
       <div className='container'>
         <div className='row'>
@@ -82,4 +81,4 @@ function OurServices() {
   );
 }
 
-export default OurServices;
+export default Services;

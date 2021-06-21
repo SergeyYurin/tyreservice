@@ -2,18 +2,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Maps from './components/Maps';
-import AboutMe from './components/AboutMe';
-import OurServices from './components/OurServices';
+import AboutUs from './components/AboutUs';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+import Services from './components/Services';
 
 function App() {
   return (
     <>
       <Navbar />
-      <OurServices />
+      <AboutUs />
+      <Services />
       <Maps />
-      <AboutMe />
       <Contacts />
       <Footer />
     </>
