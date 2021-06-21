@@ -94,6 +94,7 @@ nav ul li {
 .map-wraper {
   position: relative;
   height: 90vh;
+  border-bottom: 1px solid var(--primary-black);
 }
 
 .map-info {
@@ -126,10 +127,12 @@ nav ul li {
   position: relative;
   margin-top: 5rem;
   padding-top: 1rem;
+  max-width: 100% !important;
   height: 90vh;
   text-align: center;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid var(--primary-black);
 }
 
 .photo-wrap {
@@ -144,7 +147,7 @@ nav ul li {
 }
 
 .profile-img {
-  width: 110%;
+  width: 95%;
   border-radius: 20px;
   padding: .4rem;
   border: 2px solid var(--primary-red);
@@ -171,6 +174,7 @@ nav ul li {
   text-align: center;
   padding-bottom: 2rem;
   background-color: var(--primary-light-grey);
+  border-bottom: 1px solid var(--primary-black);
 }
 
 .services h1 {
