@@ -49,10 +49,10 @@ const Contacts = () => {
   return (
     <div id='contacts' className='contacts'>
       <div className='text-center'>
-        <h1>contact me</h1>
+        <h1>связаться с нами</h1>
         <p>
-          Please fill up the form and describe your project and I will
-          contact you as soon as possble
+          Опишите свою просьбу или предложение о работе с нами, и мы
+          свяжемся с вами максимально быстро.
         </p>
         <span className='success-message'>{successMessage}</span>
       </div>
@@ -65,15 +65,14 @@ const Contacts = () => {
                 <input
                   type='text'
                   className='form-control'
-                  placeholder='Name'
+                  placeholder='Имя'
                   name='name'
                   aria-invalid={errors.name ? 'true' : 'false'}
                   {...register('name', {
-                    required: 'Please enter your name',
+                    required: 'Пожалуйста, укажите свое имя',
                     maxLength: {
                       value: 20,
-                      message:
-                        'Please enter a name with no more than 20 characters',
+                      message: 'Имя должно быть не более 20 символов',
                     },
                   })}
                 />
@@ -87,14 +86,15 @@ const Contacts = () => {
                 <input
                   type='tel'
                   className='form-control'
-                  placeholder='Phone number in format: 1234567890'
+                  placeholder='Формат номера телефона: 1234567890'
                   name='phone'
                   aria-invalid={errors.phone ? 'true' : 'false'}
                   {...register('phone', {
-                    required: 'Please add your phone number',
+                    required:
+                      'Пожалуйста добавьте Ваш номер телефона',
                     pattern: {
                       value: /^[0-9]{3}[0-9]{3}[0-9]{4}/i,
-                      message: 'invalid phone number',
+                      message: 'Неверный формат номера телефона',
                     },
                   })}
                 />
@@ -113,11 +113,13 @@ const Contacts = () => {
                   name='email'
                   aria-invalid={errors.email ? 'true' : 'false'}
                   {...register('email', {
-                    required: 'Please provide your email',
+                    required:
+                      'Пожалуйста укажите свою электронную почту',
                     pattern: {
                       value:
                         /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                      message: 'invalid email',
+                      message:
+                        'некорректно введенная электронная почта',
                     },
                   })}
                 />
@@ -131,11 +133,12 @@ const Contacts = () => {
                 <input
                   type='text'
                   className='form-control'
-                  placeholder='Subject'
+                  placeholder='Субъект'
                   name='subject'
                   aria-invalid={errors.subject ? 'true' : 'false'}
                   {...register('subject', {
-                    required: 'Please add your subject',
+                    required:
+                      'Пожалуйста укажите субъект своего обращения',
                   })}
                 />
                 <div className='line'></div>
@@ -150,12 +153,12 @@ const Contacts = () => {
                 <textarea
                   type='text'
                   className='form-control'
-                  placeholder='Describe your request'
+                  placeholder='Опишите свое обращение'
                   name='description'
                   aria-invalid={errors.description ? 'true' : 'false'}
                   {...register('description', {
                     required:
-                      'Please describe your request or project',
+                      'Пожалуйста опишите свое обращение или просьбу',
                   })}
                 ></textarea>
                 <div className='line'></div>
@@ -164,12 +167,12 @@ const Contacts = () => {
                 {errors.description && errors.description.message}
               </span>
             </div>
-            <div className='text-center'>
+            <div>
               <button
                 className='btn-main-offer contact-btn'
                 type='submit'
               >
-                send request
+                отправить обращение
               </button>
             </div>
           </div>

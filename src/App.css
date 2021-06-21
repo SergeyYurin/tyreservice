@@ -269,7 +269,7 @@ nav ul li {
 }
 
 .contacts h1 {
-  color: var(--primary-orange);
+  color: var(--primary-hover-red);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
