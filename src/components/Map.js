@@ -8,7 +8,6 @@ const Map = () => {
   useEffect(() => {
     let map;
     load().then((mapglAPI) => {
-      // container — id of the div element in your html
       map = new mapglAPI.Map('map-container', {
         center: [55.31878, 25.23584],
         zoom: 13,
