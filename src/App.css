@@ -147,7 +147,7 @@ nav ul li {
 }
 
 .profile-img {
-  width: 95%;
+  width: 100%;
   border-radius: 20px;
   padding: .4rem;
   border: 2px solid var(--primary-red);
