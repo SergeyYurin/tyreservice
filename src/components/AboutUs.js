@@ -30,10 +30,10 @@ function AboutUs() {
             что хорошо отбалансированные колеса не разбивают детали
             ходовой части автомобиля.
           </p>
-          <div className='about-text'>
-            SIBerian Stop = Легко с профессионалами!
-          </div>
         </div>
+      </div>
+      <div className='about-slogan'>
+        SIBerian Stop = Легко с профессионалами!
       </div>
     </div>
   );

@@ -94,9 +94,11 @@ nav ul li {
 .map-wraper {
   position: relative;
   left: 5%;
-  top: 10%;
-  height: 80%;
-  width: 60%;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  height: 200%;
+  width: 97%;
   border: 1px solid var(--primary-black);
 }
 
@@ -120,13 +122,29 @@ nav ul li {
 .map-window {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--primary-black);
-  background: var(--primary-light-grey);
+  /* border: 1px solid var(--primary-black); */
+  /* background: var(--primary-light-grey); */
   border-bottom: 1px solid var(--primary-black);
 }
 
+.map-description {
+  justify-content: center;
+  align-content: space-around;
+}
+
+.map-heading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-red);
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
 .map-text {
-  color: var(--primary-hover-red)
+  justify-content: center;
+  align-items: center;
 }
 
 /************* ABOUT US*********/
@@ -152,6 +170,15 @@ nav ul li {
 .about-text {
   justify-content: center;
   align-items: center;
+}
+
+.about-slogan {
+  margin: 2rem;
+  color: var(--primary-red);
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .profile-img {
