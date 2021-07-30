@@ -1,29 +1,37 @@
-import React from 'react';
-import { load } from '@2gis/mapgl';
-import { useEffect, useState } from 'react';
-import MapWrapper from './MapWrapper';
+import React, { Component } from 'react';
+import GoogleMapReact from 'google-map-react';
 
-const Map = () => {
-  const [mapInstance, setMapInstance] = useState();
-  useEffect(() => {
-    let map;
-    load().then((mapglAPI) => {
-      map = new mapglAPI.Map('map-container', {
-        center: [55.31878, 25.23584],
-        zoom: 13,
-        key: 'Your API access key',
-      });
-    });
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-    // Destroy the map on unmounted
-    return () => map && map.destroy();
-  }, []);
+class Map extends Component {
+  static defaultProps = {
+    center: {
+      lat: 56.129354,
+      lng: 93.335116,
+    },
+    zoom: 11,
+  };
 
-  return (
-    <div style={{ width: '100%', height: '100%' }}>
-      <MapWrapper />
-    </div>
-  );
-};
+  render() {
+    return (
+      // Important! Always set the container height explicitly
+      <div style={{ height: '60vh', width: '100%' }}>
+        <GoogleMapReact
+          bootstrapURLKeys={{
+            key: 'AIzaSyBugh - s6CjeDvecasIqsSF - TbxFHQpz2XU',
+          }}
+          defaultCenter={this.props.center}
+          defaultZoom={this.props.zoom}
+        >
+          <AnyReactComponent
+            lat={56.129354}
+            lng={93.335116}
+            text='My Marker'
+          />
+        </GoogleMapReact>
+      </div>
+    );
+  }
+}
 
 export default Map;
