@@ -15,20 +15,25 @@ class Map extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '60vh', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{
-            key: 'AIzaSyBugh - s6CjeDvecasIqsSF - TbxFHQpz2XU',
-          }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <AnyReactComponent
-            lat={56.129354}
-            lng={93.335116}
-            text='My Marker'
-          />
-        </GoogleMapReact>
+      <div id='maps' className='map-window'>
+        <div className='map-wraper'>
+          <GoogleMapReact
+            className='map-info'
+            bootstrapURLKeys={{
+              key: 'AIzaSyBugh - s6CjeDvecasIqsSF - TbxFHQpz2XU',
+            }}
+            defaultCenter={this.props.center}
+            defaultZoom={this.props.zoom}
+          >
+            <AnyReactComponent
+              className='map-text'
+              lat={56.129354}
+              lng={93.335116}
+              text='🛠 Siberian Stop'
+            />
+          </GoogleMapReact>
+          <p>Вы можете нас найти по адресу:</p>
+        </div>
       </div>
     );
   }
