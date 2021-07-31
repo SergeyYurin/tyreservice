@@ -9,12 +9,11 @@ class Map extends Component {
       lat: 56.129354,
       lng: 93.335116,
     },
-    zoom: 11,
+    zoom: 12,
   };
 
   render() {
     return (
-      // Important! Always set the container height explicitly
       <div id='maps' className='map-window container py-5'>
         <div className='row'>
           <div className='col-lg-6 col-xm-12'>
