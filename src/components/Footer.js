@@ -49,6 +49,7 @@ const Footer = () => {
                 >
                   наши услуги
                 </Link>
+                /
                 <Link
                   smooth={true}
                   to='prices'
@@ -56,13 +57,14 @@ const Footer = () => {
                   className='footer-nav'
                   href='#'
                 >
-                  /цены
+                  цены
                 </Link>
               </div>
             </div>
           </div>
           <div className='col-lg-5 col-md-2 col-sm-6 align-items-center'>
             <div className='d-flex justify-content-center'>
+              <p>Мы Вконтакте</p>
               <a
                 href='https://vk.com/public198208851'
                 className='vkontakte social'

@@ -77,15 +77,10 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                карта <span class='sr-only'></span>
+                местоположение <span class='sr-only'></span>
               </Link>
             </li>
 
-            {/* <li className='nav-item'>
-              <Link className='nav-link' href='#'>
-                Portfolio
-              </Link>
-            </li> */}
             <li className='nav-item'>
               <Link
                 smooth={true}

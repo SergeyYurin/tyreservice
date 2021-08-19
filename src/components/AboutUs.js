@@ -32,9 +32,6 @@ function AboutUs() {
           </p>
         </div>
       </div>
-      <div className='about-slogan'>
-        SIBerian Stop = Легко с профессионалами!
-      </div>
     </div>
   );
 }

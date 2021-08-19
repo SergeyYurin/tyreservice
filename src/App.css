@@ -3,7 +3,7 @@
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
   --primary-light-grey2: #d5d2d2;
-  --primary-orange: #FF871A;
+  --primary-orange: #ffa159;
   --primary-green: #4AB834;
   --primary-blue: rgba(8, 131, 238, 0.947);
   --primary-dark2: rgb(52, 58, 64);
@@ -12,7 +12,7 @@
   --primary-med-grey: rgb(157, 157, 157);
   --primary-red: #f04019;
   --primary-hover-red: #d5320e;
-  --primary-pink: #f47878;
+  --primary-pink: #ff4040;
 }
 
 body {
@@ -129,6 +129,13 @@ nav ul li {
   border-bottom: 1px solid var(--primary-black);
 }
 
+.map-window:hover {
+  border: 1px solid var(--primary-red);
+  transition: transform 250ms;
+  transform: translateY(-0.1rem);
+  box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.4);
+}
+
 .map-description {
   justify-content: center;
   align-content: space-around;
@@ -156,7 +163,7 @@ nav ul li {
   margin-top: 5rem;
   padding-top: 1rem;
   max-width: 100% !important;
-  height: 90vh;
+  height: auto;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -201,7 +208,7 @@ nav ul li {
 
 @media(max-width: 468px) {
   .profile-img {
-    width: 10rem;
+    width: 22rem !important;
   }
 }
 
@@ -215,6 +222,8 @@ nav ul li {
 }
 
 .services h1 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   color: var(--primary-red);
   text-transform: uppercase;
 }
@@ -267,7 +276,7 @@ nav ul li {
   border-bottom: 0.3125rem solid var(--primary-red);
   border: 0.001rem solid var(--primary-black);
   padding: 0.625rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem;
   background: var(--primary-light-grey);
 }
 
@@ -297,13 +306,17 @@ nav ul li {
 /**********Prices***********/
 
 .prices {
+  max-width: 100% !important;
+  height: auto;
   text-align: center;
   padding-bottom: 2rem;
-  background-color: var(--primary-light-grey);
+  background-color: var(--primary-white);
   border-bottom: 1px solid var(--primary-black);
 }
 
 .prices h1 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   color: var(--primary-red);
   text-transform: uppercase;
 }
@@ -311,7 +324,7 @@ nav ul li {
 .prices .circle {
   position: relative;
   margin: 0.375rem auto;
-  background: var(--primary-red);
+  background: var(--primary-hover-red);
   border-radius: 20%;
   width: 3.7rem;
   height: 3.5rem;
@@ -339,17 +352,24 @@ nav ul li {
 }
 
 .prices .box {
-  height: 18rem;
+  height: 95%;
   border-radius: 20px;
-  border-bottom: 0.3125rem solid var(--primary-red);
+  border-bottom: 0.3125rem solid var(--primary-hover-red);
   border: 0.001rem solid var(--primary-black);
-  padding: 0.625rem;
-  margin-bottom: 1.875rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
   background: var(--primary-light-grey);
 }
 
+.prices .box p {
+  text-align: left;
+  margin: 0.3125rem;
+  padding-bottom: 0.3rem;
+}
+
 .prices .box:hover {
-  background: var(--primary-pink);
+  background: var(--primary-light-grey);
+  border: 1px solid var(--primary-red);
   transition: transform 250ms;
   transform: translateY(-0.1rem);
   box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.4);
@@ -360,15 +380,7 @@ nav ul li {
 }
 
 .prices .box:hover .circle {
-  background: var(--primary-white);
-}
-
-.prices .box:hover p {
-  color: var(--primary-white);
-}
-
-.prices .box:hover h3 {
-  color: var(--primary-white);
+  background: var(--primary-pink);
 }
 
 /**********Contact-me******/
@@ -463,7 +475,7 @@ input.form-control {
 }
 
 textarea.form-control {
-  margin: -0.33rem 0;
+  margin: -0.3rem 0;
 }
 
 .contact-button {
@@ -554,7 +566,7 @@ textarea.form-control {
 }
 
 .footer a:hover {
-  color: var(--primary-red);
+  color: var(--primary-pink);
   text-decoration: none;
   cursor: pointer;
 }
@@ -575,5 +587,5 @@ a.social {
 }
 
 a.social:hover {
-  transform: translateY(-4px);
+  transform: translateY(-9px);
 }

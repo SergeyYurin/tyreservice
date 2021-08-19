@@ -9,7 +9,7 @@ class Map extends Component {
       lat: 56.129354,
       lng: 93.335116,
     },
-    zoom: 12,
+    zoom: 13,
   };
 
   render() {
@@ -30,13 +30,13 @@ class Map extends Component {
                   className='map-text'
                   lat={56.129354}
                   lng={93.335116}
-                  text='🛠 Siberian Stop'
+                  text='🛠 Siberian Stop Легковой'
                 />
                 <AnyReactComponent
                   className='map-text'
                   lat={56.12297411767989}
                   lng={93.32362545231837}
-                  text='🛠 Siberian Stop'
+                  text='🛠 Siberian Stop Грузовой'
                 />
               </GoogleMapReact>
             </div>
