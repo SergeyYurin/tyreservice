@@ -1,11 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faLinkedin,
-  faTwitter,
-  faFacebook,
-  faVk,
-} from '@fortawesome/free-brands-svg-icons';
+import { faVk } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-scroll';
 
 /* eslint-disable */
@@ -61,7 +56,7 @@ const Footer = () => {
                   className='footer-nav'
                   href='#'
                 >
-                  наши цены
+                  /цены
                 </Link>
               </div>
             </div>

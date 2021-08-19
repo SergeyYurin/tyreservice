@@ -94,10 +94,9 @@ nav ul li {
 .map-wraper {
   position: relative;
   left: 5%;
-  top: 5%;
   right: 5%;
   bottom: 5%;
-  height: 200%;
+  height: 110%;
   width: 97%;
   border: 1px solid var(--primary-black);
 }
