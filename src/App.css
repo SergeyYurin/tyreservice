@@ -446,7 +446,7 @@ textarea.form-control {
 .success-message {
   font-size: 1.25rem;
   font-weight: 500;
-  color: var(--primary-green);
+  color: var(--primary-red);
 }
 
 /**********Media******/
@@ -487,18 +487,8 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
-a.twitter {
-  color: #49a1eb!important;
-  margin: 10px;
-}
-
-a.linkedin {
-  color: #0e76a8!important;
-  margin: 10px;
-}
-
-a.facebook {
-  color: #4968ad!important;
+a.vkontakte {
+  color: #4C75A3!important;
   margin: 10px;
 }
 

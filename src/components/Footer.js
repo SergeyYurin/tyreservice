@@ -4,6 +4,7 @@ import {
   faLinkedin,
   faTwitter,
   faFacebook,
+  faVk,
 } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-scroll';
 
@@ -59,28 +60,12 @@ const Footer = () => {
           <div className='col-lg-5 col-md-2 col-sm-6 align-items-center'>
             <div className='d-flex justify-content-center'>
               <a
-                href='https://twitter.com/RealSergeyYurin'
-                className='twitter social'
+                href='https://vk.com/public198208851'
+                className='vkontakte social'
                 target='_blank'
                 rel='noreferrer'
               >
-                <FontAwesomeIcon icon={faTwitter} size='2x' />
-              </a>
-              <a
-                href='https://www.linkedin.com/in/sergey-yurin/'
-                className='linkedin social'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <FontAwesomeIcon icon={faLinkedin} size='2x' />
-              </a>
-              <a
-                href='https://www.facebook.com/sergey.yurin'
-                className='facebook social'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <FontAwesomeIcon icon={faFacebook} size='2x' />
+                <FontAwesomeIcon icon={faVk} size='2x' />
               </a>
             </div>
             <p className='py-3 text-center'>
