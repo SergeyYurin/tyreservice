@@ -54,6 +54,15 @@ const Footer = () => {
                 >
                   наши услуги
                 </Link>
+                <Link
+                  smooth={true}
+                  to='prices'
+                  offset={-80}
+                  className='footer-nav'
+                  href='#'
+                >
+                  наши цены
+                </Link>
               </div>
             </div>
           </div>

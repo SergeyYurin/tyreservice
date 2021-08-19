@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Map from './components/Map';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
+import Prices from './components/Prices';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <AboutUs />
       <Services />
+      <Prices />
       <div style={{ width: '100%', height: 400 }}>
         <Map />
       </div>

@@ -55,14 +55,25 @@ const Navbar = () => {
                 className='nav-link'
                 href='#'
               >
-                наш услуги
+                наши услуги
+              </Link>
+            </li>
+            <li className='nav-item active'>
+              <Link
+                smooth={true}
+                to='prices'
+                offset={-80}
+                className='nav-link'
+                href='#'
+              >
+                наши цены
               </Link>
             </li>
             <li className='nav-item'>
               <Link
                 smooth={true}
                 to='maps'
-                offset={-70}
+                offset={-92}
                 className='nav-link'
                 href='#'
               >
