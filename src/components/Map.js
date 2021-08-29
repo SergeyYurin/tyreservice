@@ -49,12 +49,14 @@ class Map extends Component {
             <p className='map-text'>
               ул. Юности, 2г Сосновоборск, Красноярский край, 662500
             </p>
+            <p className='map-text'>телефон: +7(923)319-21-29</p>
+
             <p className='map-text'>Грузовой шиномонтаж:</p>
             <p className='map-text'>
               трасса Красноярск-Железногорск, 18-й километр, 30,
               Берёзовский район, Красноярский край, 662518
             </p>
-            <p className='map-text'>телефон: +7(923)319-21-29</p>
+            <p className='map-text'>телефон: +7(933)329-65-36</p>
           </div>
         </div>
       </div>
