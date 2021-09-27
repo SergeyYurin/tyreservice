@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Map from './components/Map';
+import Ymap from './components/Ymap';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Prices from './components/Prices';
@@ -15,9 +16,8 @@ function App() {
       <AboutUs />
       <Services />
       <Prices />
-      <div style={{ width: '100%', height: 400 }}>
-        <Map />
-      </div>
+      <Map />
+      {/* <Ymap /> */}
       <Contacts />
       <Footer />
     </>
